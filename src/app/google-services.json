@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "942808979005",
+    "project_id": "pideqr-final",
+    "storage_bucket": "pideqr-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942808979005:android:b6e3c27183145258c33c54",
+        "android_client_info": {
+          "package_name": "com.PideQr.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtK4wqidZxgxpKZ3fjHagoT0KWqbNMz4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

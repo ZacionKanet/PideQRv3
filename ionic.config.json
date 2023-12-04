@@ -1,0 +1,7 @@
+{
+  "name": "PideQR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
