@@ -1,8 +1,5 @@
 <ion-header translucent="true">
   <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref="/"></ion-back-button>
-    </ion-buttons>
     <ion-title> Bienvenido a PideQR {{ username }}</ion-title>
   </ion-toolbar>
 </ion-header>
@@ -28,7 +25,10 @@
     </ion-card> 
     <div class="centrado">
       <ion-card>
-        <ion-button (click)="irCamaraPage()">Scanea tu codigo Qr</ion-button>
+        <ion-button expand="full" (click)="scan()">Escanear Código</ion-button>
+      </ion-card>
+      <ion-card>
+        <ion-button (click)="goToLoginPage()" expand="full">Ir a Login</ion-button>
       </ion-card>
     </div>
   </div>

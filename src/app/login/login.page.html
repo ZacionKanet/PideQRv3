@@ -9,14 +9,13 @@
     <img alt="Logo PideQR" src="../../assets/images/PIDEQR.svg" />
   </ion-card>
 
-  <ion-item>
-    <ion-label position="stacked">Usuario</ion-label>
-    <ion-input type="text" [(ngModel)]="username"></ion-input>
-  </ion-item>
 
   <ion-item>
-    <ion-label position="stacked">Contraseña</ion-label>
-    <ion-input type="password" [(ngModel)]="password"></ion-input>
+    <ion-input type="text" [(ngModel)]="username" label="Usuario"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+    <ion-input type="password" [(ngModel)]="password" label="Contraseña"></ion-input>
   </ion-item>
 
   <ion-button expand="full" (click)="login()">Iniciar sesion</ion-button>
@@ -28,9 +27,9 @@
 
   <div class="error-message" style="color: red;"></div>
 
-  <ion-footer>
+  <!-- <ion-footer>
     <ion-button (click)="volver()">Volver</ion-button>
-  </ion-footer>
+  </ion-footer> -->
 
   <ion-footer>
     <ion-buttons slot="start">

@@ -4,7 +4,7 @@ import { NoAuthGuard } from './guards/no-auth.guard';
 import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' }, // Redirige a la página de login por defecto
+  { path: '', redirectTo: 'home', pathMatch: 'full' }, // Redirige a la página de login por defecto
   {
     path: 'login',
     loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule), canActivate: [NoAuthGuard]
